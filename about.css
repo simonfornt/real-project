@@ -1,0 +1,83 @@
+
+#about{
+  
+}
+
+.about-intro{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+
+}
+
+.about-intro h2{
+   
+}
+
+
+.about-us{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 2rem;
+    margin: 30px auto;
+}
+
+.about-detailes h1{
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-size: 2.6rem;
+    hyphens: auto;
+  hyphenate-character: "\2010"; /* Hyphen character */
+}
+
+.about-detailes p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.about-detailes img{
+    width: 100%;
+
+}
+
+
+#activites{
+    
+    padding: 50px 0;
+}
+
+.act-box{
+   display: flex;
+   justify-content: space-between;
+   gap: 2rem;
+   
+    margin: 50px auto;
+}
+
+.box i{
+    color: red;
+    font-size: 30px;
+}
+
+.act-box .box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+    
+    background-color: rgb(4, 46, 82);
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.act-box .box h3{
+    color: rgb(210, 174, 16);
+}
+
+
+.act-box .box:hover{
+    box-shadow: inset 0px 0px 10px dodgerblue;
+    transition: all 3ms ease;
+}

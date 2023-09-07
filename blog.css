@@ -1,0 +1,59 @@
+#show{
+   
+}
+
+
+.slider-container {
+    height: 94vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+  
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    
+  }
+
+
+  /* blog section */
+
+
+  #blog
+
+  .blog-container{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   gap: 2rem;
+   margin: 40px auto;
+    
+  }
+  
+  .box1{
+   
+    padding: 30px 10px;
+  }
+
+  .box1 h2, h5,p{
+    margin: 10px 0;
+  }
+
+  .fakeimg img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .box1 a{
+    color: rgb(241, 71, 19);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .box1 a:hover{
+    text-decoration: underline;
+  }

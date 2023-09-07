@@ -1,0 +1,32 @@
+
+
+/* ... (other styles) ... */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (tablets and smaller) */
+    .mylinks{
+        display: none;
+    }
+
+    .hero .title h1{
+       
+       
+    }
+    /* ... (other styles) ... */
+
+    .hero {
+        grid-template-columns: 1fr; /* Switch to a single column layout for hero section */
+        gap: 2rem; /* Reduce the gap between elements */
+    }
+
+    .title-pic img{
+   display: none;
+       
+      }
+    /* ... (other styles) ... */
+}
+
+
+
+
+ 
